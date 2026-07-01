@@ -50,3 +50,48 @@ Allows customers to rate their experiences and leave comments once their tickets
 * Communicate with customers through chat or other channels to provide updates and resolution.
 * Escalate complex or unresolved complaints to higher levels if necessary. Maintain proper documentation of interactions and actions taken to resolve complaints. Collaborate with other agents or departments if required for complaint resolution. Provide feedback and suggestions to the admin for improving customer service.
 *
+
+
+## User Flow
+
+### User Registration
+* User launches the customer registry app.
+* User selects the option to register as a new customer.
+* User enters their personal details such as name, email, phone number, and password. User submits the registration form.
+* The app validates the entered information and creates a new customer account. The app displays a confirmation message and prompts the user to log in.
+
+### User Login
+* User launches the customer registry app.
+* User selects the option to log in.
+* User enters their login credentials (email and password).
+* The app verifies the credentials and grants access to the customer dashboard.
+
+### Customer Dashboard
+* Upon successful login, the customer is presented with a personalized dashboard. The dashboard displays relevant information, such as the user's profile, recent activities, and any notifications.
+* The customer can navigate to different sections of the app, such as their profile, complaint management, or communication channels.
+
+### Raise a Complaint
+* From the customer dashboard, the user selects the option to raise a complaint. The app presents a form or interface where the user can enter details about the complaint, including the nature of the issue and any relevant attachments.
+* The user submits the complaint.
+* The app validates the complaint and assigns it a unique complaint ID. The app displays a confirmation message and provides the complaint ID for reference.
+
+### Admin Assignment
+* In the admin dashboard, the assigned administrator receives a notification about the newly raised complaint.
+* The admin reviews the complaint details and assigns it to an appropriate agent for resolution.
+* The app notifies the assigned agent about the new complaint assignment.
+
+### Agent Resolution
+* The assigned agent accesses the app and views the details of the assigned complaint. The agent may initiate a chat or communication with the customer to gather additional information or clarify the issue.
+* The agent works towards resolving the complaint, taking necessary actions, and updating the complaint status within the app.
+* The agent communicates with the customer, providing updates and seeking feedback or confirmation of resolution.
+* Once the complaint is resolved, the agent updates the status accordingly.
+
+### Customer Interaction
+* The customer receives notifications or messages from the assigned agent regarding their complaint.
+* The customer can access the app to view updates, respond to messages, or provide feedback on the resolution.
+* The customer may engage in a chat conversation with the agent to discuss the complaint or seek further assistance.
+
+### Closure and Feedback
+* Once the complaint is marked as resolved by the agent, the customer is notified. The customer can review the resolution and provide feedback or ratings for the support received.
+* The app may prompt the customer to fill out a satisfaction survey or provide comments on their experience.
+* The app records the feedback and updates the complaint status as closed.
