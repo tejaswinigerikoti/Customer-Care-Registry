@@ -95,3 +95,17 @@ Allows customers to rate their experiences and leave comments once their tickets
 * Once the complaint is marked as resolved by the agent, the customer is notified. The customer can review the resolution and provide feedback or ratings for the support received.
 * The app may prompt the customer to fill out a satisfaction survey or provide comments on their experience.
 * The app records the feedback and updates the complaint status as closed.
+
+
+## MVC Pattern
+
+The Customer Registry backend application follows the Model-View-Controller (MVC) architectural pattern, a software design approach that separates an application into three interconnected layers.
+
+### Model
+The Model represents the data and business logic of the application. It handles data storage, retrieval, and modification. In this application, models are defined for entities like Customer, Admin, Agent, and Complaint, which map to their respective database tables or collections.
+
+### View
+The View is responsible for rendering the user interface and presenting data to the user. In the context of a backend application or API, the view often refers to the JSON responses returned to the client, which are then used by the frontend to display information.
+
+### Controller
+The Controller acts as an intermediary between the Model and the View. It receives user requests from the routing layer, processes them using business logic, interacts with the Model to update or fetch data, and determines the appropriate View or response to send back to the user.
