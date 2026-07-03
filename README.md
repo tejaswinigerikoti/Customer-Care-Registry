@@ -110,7 +110,9 @@ The View is responsible for rendering the user interface and presenting data to 
 ### Controller
 The Controller acts as an intermediary between the Model and the View. It receives user requests from the routing layer, processes them using business logic, interacts with the Model to update or fetch data, and determines the appropriate View or response to send back to the user.
 
-### Development
+### Backend Development and Explanation
+
+## Development
 
 The backend of the Customer Registry System was developed using Node.js, Express.js, and MongoDB. A modular project structure was adopted by organizing the application into separate folders such as config, models, controllers, routes, middleware, and utils to improve maintainability and scalability.
 
@@ -118,7 +120,7 @@ The Express server was configured with middleware including CORS for handling cr
 
 The application was connected to MongoDB using Mongoose, and schemas were created for the main entities: Admin, Agent, Customer, Inquiry, Complaint, Feedback, and Request. Controller files were developed to perform CRUD operations for each module, while separate route files were created to define RESTful API endpoints. Authentication and role-based authorization middleware were implemented to provide secure access to protected resources.
 
-### Explanation
+## Explanation
 
 The Customer Registry System backend follows a modular architecture, where each component has a specific responsibility.
 
