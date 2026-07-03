@@ -130,3 +130,23 @@ The Customer Registry System backend follows a modular architecture, where each 
 * The routes folder maps HTTP requests to the appropriate controller methods and exposes the RESTful APIs.
 * The middleware folder includes authentication, authorization, and error-handling functions that improve application security and reliability.
 * The utils folder contains reusable helper functions such as JWT token generation and application constants.
+
+
+# Overview:
+This project is a MERN-stack (MongoDB, Express, React, Node.js) application designed to handle secure user registration and efficient customer data management.
+
+# Implementation Details:
+
+User Registration & Account Management: The system securely handles registrations for customers, admins, and agents.
+
+Data Handling: Customer data is captured via a sign-up form and stored in the CUSTOMER table with auto-generated IDs and registration timestamps.
+
+Agent Assignment: The system supports agent creation, where records are mapped to an admin_id for administrative oversight.
+
+# Development Highlights:
+
+Frontend: Built using React to create dynamic, responsive UI components for the registration and management modules.
+
+Backend: Express and Node.js were utilized to create RESTful API endpoints that handle data binding and database operations.
+
+Architecture: The project follows a modular structure, separating concerns across controllers, routes, and models for maintainability.
