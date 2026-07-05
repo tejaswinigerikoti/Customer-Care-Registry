@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const mongoose = require('mongoose'); // 1. Import Mongoose
 require('dotenv').config();
 
 const app = express();
@@ -7,8 +8,13 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware configuration
 app.use(cors());
-app.use(express.json()); // Built-in body-parser middleware for parsing application/json data
-app.use(express.urlencoded({ extended: true })); // Parses incoming requests with urlencoded payloads
+app.use(express.json()); 
+app.use(express.urlencoded({ extended: true })); 
+
+// 2. Connect to MongoDB Atlas
+mongoose.connect(process.env.MONGO_URI)
+    .then(() => console.log('Successfully connected to MongoDB Atlas.'))
+    .catch((error) => console.error('MongoDB connection error:', error));
 
 // Test Route
 app.get('/', (req, res) => {
