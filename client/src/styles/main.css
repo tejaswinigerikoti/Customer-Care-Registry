@@ -1,0 +1,12 @@
+body{
+    background:#f4f7fc;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.btn-primary{
+    border-radius:8px;
+}
+
+img{
+    max-width:100%;
+}
