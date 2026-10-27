@@ -332,10 +332,6 @@ This project provides:
 
 ---
 
-# 👨‍💻 Author
-
-**Name:** Tirukuchuru Vinitha
-
 **Project:** Customer Registry System
 
 **Technology:** MERN Stack (MongoDB, Express.js, React.js, Node.js)
